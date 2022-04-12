@@ -48,7 +48,7 @@ n_candidates = ls_candidates[, .N]
 ## Colours of candidates. Those colours were selected from:
 # https://www.lemonde.fr/les-decodeurs/article/2022/02/22/presidentielle-2022-le-tableau-de-bord-des-parrainages-sondages-et-temps-de-parole_6114816_4355770.html
 ls_candidates[, col := c("#881E19", "#00258D", "#F0657F", "#47AB42", "#5A6F6A", "#7E5728",
-	"#F5992C", "#EE4031", "#2E83BA", "#DF2B20", "#573D1C")]
+	"#F5992C", "#EE4031", "#BB3328", "#2E83BA", "#DF2B20", "#573D1C")]
 
 ## Remove overseas territories (apologise, but it is easier for plotting the data on a map...)
 ls_dpt_raster = unique(france_dpt$NAME_2)
